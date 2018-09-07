@@ -1,5 +1,5 @@
 body {
-    padding: 75px;
+    padding: 70px;
 }
 .titulo{
     font-family: sans-serif;
@@ -31,7 +31,7 @@ body {
  }
  nav ul li{
     display: inline;
-    padding-right: 15px;
+    padding-right: 20px;
     list-style: none;
  }
 
@@ -89,15 +89,14 @@ h2.titulo {
     display: inline-block;
     color:  #f56a6a;
     margin: 20px;
-    font-size: 40px;
-    align-ite: center;
+    font-size: 50px;
 }
 
 .art .fas{
     display: inline-block;
     color:  #f56a6a;
     margin: 20px;
-    font-size: 40px;
+    font-size: 50px;
 }
 
 .art{
@@ -108,4 +107,5 @@ h2.titulo {
 .icon {
   display: flex;
   align-items: center;
+  padding-right: 25px;
 }
