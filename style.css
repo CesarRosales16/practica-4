@@ -26,7 +26,9 @@ body {
      justify-content: space-between;
      border-bottom: solid 5px #f56a6a;
  }
-
+ h1 {
+   font-size: 2em;
+ }
  nav ul li{
     display: inline;
     padding-right: 15px;
@@ -43,7 +45,7 @@ body {
     color: #000000;
 }
 .intro {
-    border-bottom: solid 5px #7f888f3f;
+    border-bottom: solid 3px #7f888f3f;
 }
  .intro a {
      display: inline-block;
@@ -64,15 +66,18 @@ body {
 }
 
 .intro-info {
-    padding: 50px 75px 50px 75px;
+    padding: 0px 75px 15px 50px;
 }
 
 .intro-img {
-    padding: 50px 75px 50px 75px;
+    display: flex;
+    align-items: center;
+    padding: 0px 75px 0px 75px;
 }
 
 h2.titulo {
-    width: 200px;
+    width: 250px;
+    border-bottom: solid 5px #f56a6a;
 }
 
 .articles {
@@ -85,6 +90,7 @@ h2.titulo {
     color:  #f56a6a;
     margin: 20px;
     font-size: 40px;
+    align-ite: center;
 }
 
 .art .fas{
@@ -94,3 +100,12 @@ h2.titulo {
     font-size: 40px;
 }
 
+.art{
+  display: flex;
+  padding: 15px;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+}
